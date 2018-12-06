@@ -1,6 +1,34 @@
 # Spring_REST_JPA_Shopping_Cart
 A sample spring boot REST API app that enables CRUD operations on Products. Users can place Orders containing multiple such products. The price of products can be changed but already placed orders will still be able to show the old prices used during order placement. Spring JPA and H2 in memory DB are used for this app.
 
+## Build project
+
+This code required the following to be built/packaged.
+
+Maven 3.0+
+Java 1.8
+[H2 database and Tomcat included in the code with spring boot dependencies]
+
+Run the below maven command to install the app.
+**mvn install**
+
+This creates an executable jar file in /target folder.
+To run the app using java command line, run the following command.
+
+**java -jar demo-0.0.1-SNAPSHOT.jar**
+
+### Swagger Endpoint
+http://localhost:8080/swagger-ui.html#/
+
+### H2 DB console
+http://localhost:8080/console/
+
+Driver Class: org.h2.Driver
+JDBC URL: jdbc:h2:mem:testdb
+username: sa
+password: <none>
+
+
 
 ## API Description
 
