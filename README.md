@@ -9,11 +9,11 @@ Maven 3.0+
 Java 1.8
 [H2 database and Tomcat included in the code with spring boot dependencies]
 
-Run the below maven command to install the app.
+1. Run the below maven command to install the app.This creates an executable jar file in /target folder.
+
 **mvn install**
 
-This creates an executable jar file in /target folder.
-To run the app using java command line, run the following command.
+2. To run the app using java command line, run the following command.
 
 **java -jar demo-0.0.1-SNAPSHOT.jar**
 
