@@ -5,10 +5,12 @@ A sample spring boot REST API app that enables CRUD operations on Products. User
 
 This code required the following to be built/packaged.
 
+### Required Softwares
 Maven 3.0+
 Java 1.8
 [H2 database and Tomcat included in the code with spring boot dependencies]
 
+### Steps
 1. Run the below maven command to install the app.This creates an executable jar file in /target folder.
 
 **mvn install**
