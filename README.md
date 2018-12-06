@@ -6,8 +6,8 @@ A sample spring boot REST API app that enables CRUD operations on Products. User
 This code required the following to be built/packaged.
 
 ### Required Softwares
-Maven 3.0+
-Java 1.8
+Maven 3.0+<br>
+Java 1.8<br>
 [H2 database and Tomcat included in the code with spring boot dependencies]
 
 ### Steps
@@ -25,10 +25,10 @@ http://localhost:8080/swagger-ui.html#/
 ### H2 DB console
 http://localhost:8080/console/
 
-Driver Class: org.h2.Driver
-JDBC URL: jdbc:h2:mem:testdb
-username: sa
-password: <none>
+Driver Class: org.h2.Driver<br>
+JDBC URL: jdbc:h2:mem:testdb<br>
+username: sa<br>
+password: <none><br>
 
 
 
