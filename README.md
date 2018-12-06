@@ -7,7 +7,7 @@ A sample spring boot REST API app that enables CRUD operations on Products. User
 ### 1. Products
 These endpoints allow for CRUD operation on the products repository.
 
-#### Create a product
+#### a. Create a product
 This request creates a product and auto generates an id. The response will be HTTP 200 for success and a json containing the created product is returned
 
 ##### Request
@@ -21,7 +21,7 @@ curl -X POST --header 'Content-Type: application/json' --header 'Accept: applica
 }
 
 
-#### Read a product
+#### b. Read a product
 There are two options to read products.One endpoint to read a prticular product and another to list all available products.
 
 ##### Request all products
@@ -47,7 +47,7 @@ curl -X GET --header 'Accept: application/json' 'http://localhost:8080/products/
 }
 
 
-#### Update a product
+#### c. Update a product
 This request updates an existing product. The response will be HTTP 200 for success and a json containing the updated product is returned
 In this example we are updating the price of the product with id 1
 
@@ -62,7 +62,7 @@ curl -X PUT --header 'Content-Type: application/json' --header 'Accept: applicat
 }
 
 
-#### Delete a product
+#### d. Delete a product
 This request removes a product from the database. The response will be HTTP 200 for success.
 
 ##### Request
